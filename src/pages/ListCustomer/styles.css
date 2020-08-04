@@ -1,0 +1,80 @@
+.ContainerList {
+  width: 100%;
+  max-width: 500px;
+  margin: 70px auto 0;
+}
+
+.ContainerList h1 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 16px 0 5px;
+}
+
+.LinkNewCustomer {
+  background: #456c90;
+  color: #eeeeee;
+  font-weight: bold;
+  font-size: 18px;
+  width: 100%;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.2s;
+  border: 0;
+  border-radius: 6px;
+  margin: 16px 0;
+  text-decoration: none;
+}
+
+.LinkNewCustomer:hover {
+  background: #3a6185;
+}
+
+.ListCustomer {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ListCustomer li {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0;
+}
+
+.ListCustomer li + li {
+  border-top: 1px solid #222;
+}
+
+.ListCustomer li div {
+  display: flex;
+  align-items: center;
+  padding: 3px 0;
+  justify-content: space-between;
+}
+
+.ListCustomer li div h2 {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+.ListCustomer li div h2 + h2 {
+  margin-left: 16px;
+}
+
+.ListCustomer li div span {
+  line-height: 26px;
+}
+
+.ButtonX {
+  border: 0;
+  background: transparent;
+  color: #284f73;
+}
+
+.LinkEdit {
+  color: #284f73;
+}
